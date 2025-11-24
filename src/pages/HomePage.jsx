@@ -23,7 +23,7 @@ import { capitialize } from "../lib/utils";
 import FriendCard, { getLanguageFlag } from "../components/FriendCard";
 import NoFriendsFound from "../components/NoFriendsFound";
 import NotificationsPage from "./NotificationsPage";
-import GlobalChat from "../components/GlobalChat";
+// import GlobalChat from "../components/GlobalChat";
 
 const HomePage = () => {
   const queryClient = useQueryClient();

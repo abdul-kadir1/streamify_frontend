@@ -33,13 +33,13 @@ const Sidebar = ({ currentPanel, setCurrentPanel }) => {
           <span>Notifications</span>
         </button>
 
-        <button
+        {/* <button
           onClick={() => setCurrentPanel("groupchat")}
           className={`btn btn-ghost justify-start w-full gap-3 px-3 normal-case ${currentPanel === "groupchat" ? "btn-active" : ""}`}
         >
           <MessageCircle className="size-5 text-base-content opacity-70" />
           <span>Group Chat</span>
-        </button>
+        </button> */}
       </nav>
 
       <div className="p-4 border-t border-base-300 mt-auto">

@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 import HomePage from "../pages/HomePage";
 import NotificationsPage from "../pages/NotificationsPage";
-import GlobalChat from "../components/GlobalChat";
+// import GlobalChat from "../components/GlobalChat";
 
 const LayoutWithPanels = () => {
   const [currentPanel, setCurrentPanel] = useState("home");
