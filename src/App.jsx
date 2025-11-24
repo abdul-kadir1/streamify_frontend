@@ -10,7 +10,8 @@ import CallPage from "./pages/CallPage.jsx";
 import ChatPage from "./pages/ChatPage.jsx";
 import OnboardingPage from "./pages/OnboardingPage.jsx";
 import PageLoader from "./components/PageLoader.jsx";
-import useAuthUser from "./hooks/useAuthUser.jsx";
+import useAuthUser from "./hooks/useAuthUser.js";
+
 import Layout from "./components/Layout.jsx";
 import { useThemeStore } from "./store/useThemeStore.js";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
